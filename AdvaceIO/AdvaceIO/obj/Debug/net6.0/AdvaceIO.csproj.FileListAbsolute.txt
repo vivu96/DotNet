@@ -1,0 +1,14 @@
+D:\dotnet\AdvaceIO\AdvaceIO\bin\Debug\net6.0\AdvaceIO.exe
+D:\dotnet\AdvaceIO\AdvaceIO\bin\Debug\net6.0\AdvaceIO.deps.json
+D:\dotnet\AdvaceIO\AdvaceIO\bin\Debug\net6.0\AdvaceIO.runtimeconfig.json
+D:\dotnet\AdvaceIO\AdvaceIO\bin\Debug\net6.0\AdvaceIO.dll
+D:\dotnet\AdvaceIO\AdvaceIO\bin\Debug\net6.0\AdvaceIO.pdb
+D:\dotnet\AdvaceIO\AdvaceIO\obj\Debug\net6.0\AdvaceIO.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\AdvaceIO\AdvaceIO\obj\Debug\net6.0\AdvaceIO.AssemblyInfoInputs.cache
+D:\dotnet\AdvaceIO\AdvaceIO\obj\Debug\net6.0\AdvaceIO.AssemblyInfo.cs
+D:\dotnet\AdvaceIO\AdvaceIO\obj\Debug\net6.0\AdvaceIO.csproj.CoreCompileInputs.cache
+D:\dotnet\AdvaceIO\AdvaceIO\obj\Debug\net6.0\AdvaceIO.dll
+D:\dotnet\AdvaceIO\AdvaceIO\obj\Debug\net6.0\refint\AdvaceIO.dll
+D:\dotnet\AdvaceIO\AdvaceIO\obj\Debug\net6.0\AdvaceIO.pdb
+D:\dotnet\AdvaceIO\AdvaceIO\obj\Debug\net6.0\AdvaceIO.genruntimeconfig.cache
+D:\dotnet\AdvaceIO\AdvaceIO\obj\Debug\net6.0\ref\AdvaceIO.dll

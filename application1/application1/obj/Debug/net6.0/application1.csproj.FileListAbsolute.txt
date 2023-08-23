@@ -1,0 +1,14 @@
+D:\dotnet\application1\application1\bin\Debug\net6.0\application1.exe
+D:\dotnet\application1\application1\bin\Debug\net6.0\application1.deps.json
+D:\dotnet\application1\application1\bin\Debug\net6.0\application1.runtimeconfig.json
+D:\dotnet\application1\application1\bin\Debug\net6.0\application1.dll
+D:\dotnet\application1\application1\bin\Debug\net6.0\application1.pdb
+D:\dotnet\application1\application1\obj\Debug\net6.0\application1.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\application1\application1\obj\Debug\net6.0\application1.AssemblyInfoInputs.cache
+D:\dotnet\application1\application1\obj\Debug\net6.0\application1.AssemblyInfo.cs
+D:\dotnet\application1\application1\obj\Debug\net6.0\application1.csproj.CoreCompileInputs.cache
+D:\dotnet\application1\application1\obj\Debug\net6.0\application1.dll
+D:\dotnet\application1\application1\obj\Debug\net6.0\refint\application1.dll
+D:\dotnet\application1\application1\obj\Debug\net6.0\application1.pdb
+D:\dotnet\application1\application1\obj\Debug\net6.0\application1.genruntimeconfig.cache
+D:\dotnet\application1\application1\obj\Debug\net6.0\ref\application1.dll
