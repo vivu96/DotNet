@@ -1,0 +1,14 @@
+D:\dotnet\CurdApplication\CurdApplication\bin\Debug\net6.0\CurdApplication.exe
+D:\dotnet\CurdApplication\CurdApplication\bin\Debug\net6.0\CurdApplication.deps.json
+D:\dotnet\CurdApplication\CurdApplication\bin\Debug\net6.0\CurdApplication.runtimeconfig.json
+D:\dotnet\CurdApplication\CurdApplication\bin\Debug\net6.0\CurdApplication.dll
+D:\dotnet\CurdApplication\CurdApplication\bin\Debug\net6.0\CurdApplication.pdb
+D:\dotnet\CurdApplication\CurdApplication\obj\Debug\net6.0\CurdApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnet\CurdApplication\CurdApplication\obj\Debug\net6.0\CurdApplication.AssemblyInfoInputs.cache
+D:\dotnet\CurdApplication\CurdApplication\obj\Debug\net6.0\CurdApplication.AssemblyInfo.cs
+D:\dotnet\CurdApplication\CurdApplication\obj\Debug\net6.0\CurdApplication.csproj.CoreCompileInputs.cache
+D:\dotnet\CurdApplication\CurdApplication\obj\Debug\net6.0\CurdApplication.dll
+D:\dotnet\CurdApplication\CurdApplication\obj\Debug\net6.0\refint\CurdApplication.dll
+D:\dotnet\CurdApplication\CurdApplication\obj\Debug\net6.0\CurdApplication.pdb
+D:\dotnet\CurdApplication\CurdApplication\obj\Debug\net6.0\CurdApplication.genruntimeconfig.cache
+D:\dotnet\CurdApplication\CurdApplication\obj\Debug\net6.0\ref\CurdApplication.dll

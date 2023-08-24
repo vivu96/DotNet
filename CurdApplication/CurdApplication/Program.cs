@@ -1,21 +1,32 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.sqlClient;
-namespace curdApplication
+using CURDApplication.Data;
+using Microsoft.EntityFrameworkCore;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+
+builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+//builder.Services.AddDbContext<ContactsAPIDbContext>(options => options.UseInMemoryDatabase("contactsDb"));
+builder.Services.AddDbContext<ContactsAPIDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("ContactsApiConnectionString")));
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-    class program
-    {
-        static void Main(string[] args)
-        {
-          SqlConnection  SqlConnection;
-            string connectionString = @"Data Source=VIVEK_SHARMA\SQLEXPRESS;Initial Catalog=CURD;Integrated Security=True";
-            Console.WriteLine("hello world");
-
-
-
-        }
-    }
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();
