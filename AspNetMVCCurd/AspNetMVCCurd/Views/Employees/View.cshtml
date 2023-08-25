@@ -1,0 +1,40 @@
+﻿@model AspNetMVCCurd.Models.UpdateEmployeeViewModel;
+@{
+}
+    <h1>Welcome to Employee Editing page</h1>
+    <br/>
+<form method="post" action="Update" class="mt-5">
+        <div class="mb-3">
+            <label for="" class="form-label">Employee ID</label>
+            <input type="text" class="form-control" asp-for="Id" readonly>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Employee Name</label>
+            <input type="text" class="form-control" asp-for="Name" placeholder="Enter Name" required>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Employee Email</label>
+            <input type="email" class="form-control" asp-for="Email" placeholder="Enter Email" required>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Contact Number</label>
+            <input type="number" class="form-control" asp-for="Phone" placeholder="Enter Email" required>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Salary</label>
+            <input type="number" class="form-control" asp-for="Salary" placeholder="Enter Salary" required>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Date of Birth</label>
+            <input type="date" class="form-control" asp-for="dateofBirth" placeholder="Enter D.O.B" required>
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Departmant</label>
+            <input type="text" class="form-control" asp-for="Department" placeholder="Department Name" required>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
