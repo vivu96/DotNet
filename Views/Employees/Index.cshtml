@@ -1,0 +1,42 @@
+﻿@model List<AspNetMVCCurd.Models.Domain.Employee>
+@{
+}
+<style>
+    .link{
+        color:white;
+        text-decoration:none;
+    }
+</style>
+<body style="background-color:brown; color:white;">
+<h1>Employee's List</h1>
+
+<table class="table" style="color:white">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Salary</th>
+            <th>Department</th>
+            <th>Date of Birth</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var employee in Model)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.Name</td>
+                <td>@employee.Email</td>
+                <td>@employee.Phone</td>
+                <td>@employee.Salary</td>
+                <td>@employee.Department</td>
+                <td>@employee.dateofBirth.ToString("dd-mm-yyyy")</td>
+                <td><a href="Employees/View/@employee.Id">View</a></td>
+            </tr>
+        }
+    </tbody>
+</table> <a href="d:\asp.net core 6  web api\aspnetmvccrud\aspnetmvccrud\views\employees\index.cshtml">d:\asp.net core 6  web api\aspnetmvccrud\aspnetmvccrud\views\employees\index.cshtml</a>
+</body>
